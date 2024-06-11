@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
-import MyComponent from '../../components/MyComponent';
+import Pokemon from '../../components/Pokemon';
 
 
 const Home = () => {
     return (
         <Fragment>
-            <MyComponent />
+            <h1>Bulbasaur</h1>
+            <Pokemon />
         </Fragment>
     );
 };

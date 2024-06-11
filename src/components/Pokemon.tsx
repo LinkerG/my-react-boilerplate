@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getPokemon } from '../app/api';
 
-function MyComponent() {
+function Pokemon() {
   const [data, setData] = useState(null);
   const [error, setError] = useState<any | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -38,4 +38,4 @@ function MyComponent() {
   );
 }
 
-export default MyComponent;
+export default Pokemon;
